@@ -1,0 +1,7 @@
+import java.io.*;
+
+public class WriteRandomFile {
+    run|Debug|Run main|Debug main
+    Public static void main(string[]args) {
+        try{
+            // "rw'

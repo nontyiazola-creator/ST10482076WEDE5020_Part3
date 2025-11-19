@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <h1>Our Services</h1> <!--Main Title-->
+    <h2>Web Design</h2> <!--Sub-section-->
+    <p>We create and design Beautiful websites...<p>
+
+        <h2>SEO</h2>     <!--Sub-Section-->
+
+        <p>We help you to rank higher...</p>
+
+     <!-- Title Tag: Keep it under 60 characters-->
+     <title> Web Design Services | Ubuntu Youth organization- UYO </title>
+
+     <!-- Meta Description: Keep it under 160 characters-->
+    <meta name="description" content="Professional web design and development services to grow your business online. Get a free quote today!">
+
+    <!-- Meta Keywords (Less important now, but good to include)-->
+     <meta name="keywords" content="Web design, development, we provide the best services we can can to the Companies or organization that needs our help">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ubuntu Youth Empowerment</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Ubuntu Youth</div>
+    <div class="nav-links">
+      <a href="HOME.html" class="active">HOME</a>
+      <a href="PRODUCTS.html">PRODUCTS</a>
+      <a href="SOLUTION.html">SOLUTION</a>
+      <a href="RESOURCES.html">RESOURCES</a>
+      <a href="Contact.html">OTHER PAGES</a>
+    </div>
+  </nav>
+ <label for="contactReason">What are you contacting us for?</label>
+<select id="contactReason" name="contactReason" required>
+    <option value="">-- Select a reason --</option>
+    <option value="requestInfo">Request More Information</option>
+    <option value="reportProblem">Report a Problem</option>
+    <option value="followUp">Follow Up on a Previous Query</option>
+    <option value="complaint">Make a Complaint</option>
+    <option value="suggestion">Leave a Suggestion</option>
+    <option value="other">Other</option>
+</select>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Empowering the Next Generation</h1>
+      <p>Ubuntu Youth Empowerment is dedicated to uplifting and transforming the lives of young people through education, mentorship, and community initiatives.</p>
+      <a href="#contact" class="btn">Get Involved</a>
+    </div>
+  </section>
+
+  <!-- Mission & Vision -->
+  <section class="mission-vision">
+    <h2>Our Mission & Vision</h2>
+    <p>We strive to build a future where youth are confident, capable, and empowered to lead. Our dedicated team works together to implement impactful programs with transparency and accountability.</p>
+  </section>
+
+  <!-- Programs -->
+  <section class="programs">
+    <h2>Our Programs</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Education & Skills</h3>
+        <p>Providing access to education, workshops, and training programs to equip youth with skills for the future.</p>
+      </div>
+      <div class="card">
+        <h3>Mentorship</h3>
+        <p>Connecting youth with experienced mentors to guide them in personal and professional growth.</p>
+      </div>
+      <div class="card">
+        <h3>Community Projects</h3>
+        <p>Engaging youth in community-driven initiatives to foster leadership and social responsibility.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>Success Stories</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial active">
+        <p>"Thanks to Ubuntu Youth Empowerment, I gained the confidence and skills to start my own community project."</p>
+        <strong>- Thabo M.</strong>
+      </div>
+      <div class="testimonial">
+        <p>"The mentorship program helped me excel in my studies and pursue my career goals."</p>
+        <strong>- Naledi P.</strong>
+      </div>
+      <div class="testimonial">
+        <p>"Being part of community initiatives showed me the power of teamwork and giving back."</p>
+        <strong>- Sipho K.</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact & Get Involved</h2>
+    <p>Whether you’d like to volunteer, donate, or partner with us, we welcome your support.</p>
+    <ul class="contact-info">
+      <li><strong>Phone:</strong> +27 234 4564</li>
+      <li><strong>Instagram:</strong> <a href="https://instagram.com/ubuntu.yc" target="_blank">@ubuntu.yc</a></li>
+      <li><strong>Facebook:</strong> <a href="https://facebook.com/ubuntu.yc" target="_blank">@ubuntu.yc</a></li>
+      <li><strong>Twitter/X:</strong> <a href="https://twitter.com/ubuntu.yc" target="_blank">@ubuntu.yc</a></li>
+    </ul>
+
+    <!-- Newsletter -->
+    <form class="newsletter">
+     </form> 
+      <input type="email" placeholder="Your email" required>
+      <button class="btn">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ubuntu Youth Empowerment. All rights reserved.</p>
+
+
+     <form id="contactForm" action="https://formspree.io/f/xrbreooy" method="Post">
+      <input type="text" name="name" required placeholder="Your name">
+      <input type="email" name="_replyto" required placeholder="Your Email">
+      <textarea name="message" required placeholder="Your Mesage"></textarea>
+      <button type="submit">Send Message</button>
+
+
+
+
+
+
+    <div class="social-icons">
+      <!-- Icons same as before -->
+    </div>
+  </footer>
+  <div class="map">
+    <!--Paste the google Maps iframe code here-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d458283.8411193401!2d28.029742810577115!3d-26.18553426035593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e951c998f5310d9%3A0xd73d8faa15e10419!2sUbuntu%20Community%20Organization!5e0!3m2!1sen!2sza!4v1763124855094!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <script>
+    // Simple testimonial slider
+    let currentTestimonial = 0;
+    const testimonials = document.querySelectorAll('.testimonial');
+    setInterval(() => {
+      testimonials[currentTestimonial].classList.remove('active');
+      currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+      testimonials[currentTestimonial].classList.add('active');
+    }, 5000);
+    
+  </script>
+    <!--Lightbox-->
+  <div id="Lightbox" class="lightbox">
+    <span id="Lightbox-close">&times;</span>
+    <img id="Lightbox-img" src="" alt="">
+  </div>  
+    <!-- Link to your external JavaScript file-->
+    <script src="script.js"></script>
+</body>
+</html>
